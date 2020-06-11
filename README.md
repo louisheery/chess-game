@@ -1,3 +1,26 @@
 # Chess Game
 
 A C++ application which lets players compete in games of Chess.
+
+## How to Run Chess Game
+### 
+```
+$ cd chess-game
+$ make
+$ ./chess
+```
+
+## How to Use Chess Game within another Application
+1. Copy chess-game into application dictionary
+2. Import amd utilise ChessBoard object
+```
+#include "ChessBoard.h"
+...
+int main() {
+  ...
+  ChessBoard chessBoard = ChessBoard(); // Instantiate ChessBoard Object
+  cout << chessBoard << endl; // Print board
+  cb.submitMove([START LOCATION], [END LOCATION]); // Play a Move
+ ...
+}
+```
