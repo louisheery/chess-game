@@ -21,3 +21,5 @@ ChessGame.o: ChessBoard.h
 
 clean:
 	rm *.o
+	
+.PHONY: clean
