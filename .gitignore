@@ -6,3 +6,4 @@ chess
 *.obj
 *.exe
 *.out
+.DS_Store
