@@ -96,6 +96,12 @@ public:
   // creates a new Board object (which is automatically initialised using ChessBoard constructor)
   void resetBoard();
 
+  // FUNCTION: Used to check whether the Chess Game has ended.
+  bool getHasGameEnded();
+
+  // FUNCTION: Used to check whether it is currently White's or Black's turn.
+  bool getIsWhiteTurn();
+
   // ChessBoard Object Destructor: Removes Pointers and Objects contained within the current
   // ChessBoard instance. Is called automatically once the Board object goes out of scope.
   ~ChessBoard();

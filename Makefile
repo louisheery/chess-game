@@ -1,4 +1,4 @@
-OBJ = bishop.o king.o knight.o pawn.o queen.o rook.o piece.o ChessBoard.o ChessMain.o
+OBJ = bishop.o king.o knight.o pawn.o queen.o rook.o piece.o ChessBoard.o ChessGame.o
 EXE = chess
 CXX = g++
 CPPFLAGS = -Wall -g -std=c++11
@@ -17,7 +17,7 @@ queen.o: pieces/queen.h
 rook.o: pieces/rook.h
 piece.o: pieces/piece.h
 ChessBoard.o: ChessBoard.h
-ChessMain.o: ChessBoard.h
+ChessGame.o: ChessBoard.h
 
 clean:
 	rm *.o

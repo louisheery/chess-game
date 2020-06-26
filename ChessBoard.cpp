@@ -584,6 +584,14 @@ Piece* ChessBoard::killPiece(Board* board, string fromLocation, string toLocatio
   return pieceBeingKilled;
 }
 
+bool ChessBoard::getHasGameEnded() {
+  return hasGameEnded;
+}
+
+bool ChessBoard::getIsWhiteTurn() {
+  return isWhiteTurn;
+}
+
 ChessBoard::~ChessBoard() {
 
 }
