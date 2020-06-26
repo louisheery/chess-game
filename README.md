@@ -2,6 +2,8 @@
 
 A C++ application which lets players compete in games of Chess.
 
+![alt text](https://github.com/louisheery/chess-game/blob/master/chess-game-screenshots.png)
+
 ## How to Run Chess Game
 ### 
 ```
