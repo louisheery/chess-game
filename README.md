@@ -1,5 +1,8 @@
 # Chess Game
 
+[![Build Status](https://img.shields.io/badge/build-v1.0-brightgreen)](https://github.com/louisheery/chess-game)
+[![Build Status](https://img.shields.io/badge/build_status-published-brightgreen)](https://github.com/louisheery/chess-game)
+
 A C++ application which lets players compete in games of Chess.
 
 ![alt text](https://github.com/louisheery/chess-game/blob/master/chess-game-screenshots.png)
